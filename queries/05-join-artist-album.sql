@@ -7,8 +7,8 @@ SELECT
     albums.name AS "album_name",
     albums.release_year
 FROM artists
-INNER JOIN songs ON
-    songs.artist_id=artists.id
-  INNER JOIN albums ON
-    songs.album_id=albums.id;
+INNER JOIN albums ON
+    albums.artist_id=artists.id
+ORDER BY artist_name, album_name ASC;
+
 

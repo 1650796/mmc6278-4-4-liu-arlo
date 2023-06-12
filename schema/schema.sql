@@ -29,7 +29,7 @@ release_year INT,
 CREATE TABLE songs (
   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 -- create a "name" column that's a varchar of max 100 characters
-name VARCHAR,
+name VARCHAR (100),
 
 -- create a "track_number" column that's an integer
 track_number INT,

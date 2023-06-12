@@ -1,2 +1,2 @@
 -- delete only Justin Bieber from the artists table
-DELETE from artists WHERE name = "Jusin Bieber";
+DELETE FROM artists WHERE name = "Justin Bieber";
